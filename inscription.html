@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Inscription</title>
+  <link rel="stylesheet" href="connexion.css">
+</head>
+<body>
+	<section id="containerallr">
+		<main>
+			<section id="entete">
+				<article id="titleconnexion">
+					REGISTER
+				</article>
+			</section>
+			<form>
+			<section id="containermidr">
+
+				<section id="clogin">
+					<input id="id" type="text" name="id" placeholder="Identifiant" required>
+				</section>
+				<section id="cmdp">
+					<input id="mdp" type="password" name="mdp" placeholder="Mot de passe" required>
+				</section>
+				<section id="ccmdp">
+					<input id="mdpc" type="password" name="mdpc" placeholder="Confirmer votre mot de passe" required>
+				</section>
+				<section id="cbirth">
+					  <input id="birth" type="date" name="birth">
+				</section>
+				<section id="cnom">
+					<input id="nom" type="text" name="nom" placeholder="Nom">
+				</section>
+				<section id="cprenom">
+					<input id="prenom" type="text" name="prenom" placeholder="Prénom">
+				</section>
+				<section id="cmail">
+					<input id="mail" type="email" name="mail" placeholder="Adresse mail" required>
+				</section>
+				<section id="csexe">
+					<article id="sexe"><label for="sexe">Sexe:</label></article>
+				    <article id="homme"><input type="radio" name="sexe" checked required/>
+				    <label for="masculin" id="masculin">Homme <span id="mas">♂</label></article>
+				    <article id="femme"><input type="radio" name="sexe" required/>
+				    <label for="feminin" id="feminin" >Femme <span id="fem">♀</label></article>
+				</section>
+				<section id="cformation">
+					<article id="nivetude"><label for="nivetude">Niveau d'étude:</label></article>
+					<select name="etudes" id="etudes" required>
+			           <option value="bacgen">BAC général</option>
+			           <option value="bacpro">BAC Pro</option>
+			           <option value="bts">BTS</option>
+			           <option value="master">Master</option>
+			       </select>
+				</section>
+				<section id="ctel">
+					<input id="tel" type="tel" name="tel" placeholder="Numéro de téléphone">
+				</section>
+				<section id="cpres">
+					 <textarea name="pres" id="pres" placeholder="Présentez vous..." cols="30" rows="4"></textarea>
+				</section>
+				<section id="chobbies">
+					<article id="hobbies"><label for="hobbies">Hobbies:</label></article>
+					<article id="listehobbies">
+					    <input type="checkbox" id="sport">
+						<label for="football">Sport</label>
+					    <input type="checkbox" id="jeuxvideos">
+						<label for="football">Jeux vidéos</label>
+					    <input type="checkbox" id="voyages">
+						<label for="voyage">Voyages</label>
+					    <input type="checkbox" id="lecture">
+						<label for="lecture">Lecture</label>
+					    <input type="checkbox" id="film">
+						<label for="film">Film</label>
+					    <input type="checkbox" id="musique">
+						<label for="musique">Musique</label>
+					</article>
+				</section>
+			<section id="containervalid">
+				<input type="submit" id="cvalid" value="REGISTER">
+				</section>
+			</section>
+			</form>
+			<section id="containerbas">
+				<article id="oubli">
+					<a class="lien" href="connexion.html">Se connecter</a>
+				</article>
+			</section>
+			</section>
+		</main>
+	</section>
+</body>
+</html>

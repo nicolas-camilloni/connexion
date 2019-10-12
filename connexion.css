@@ -1,0 +1,467 @@
+@font-face {
+	font-family: 'UniSansDemoHeavyCAPS';
+	font-style: normal;
+	font-weight: normal;
+	src: local('UniSansDemoHeavyCAPS'), url('font/UniSansDemoHeavyCAPS.otf') format('opentype');
+}
+
+body {
+	background-image: url(photos/background.jpg);
+	margin: 0;
+}
+
+#containerall {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+	font-family: sans-serif;
+}
+
+#containerallr {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 1400px;
+	font-family: sans-serif;
+}
+
+#containerallm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+	font-family: sans-serif;
+}
+
+main {
+	background-color: white;
+	width: 40%;
+	min-width: 440px;
+}
+
+#entete {
+/*	background-color: grey;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+
+#titleconnexion {
+/*	background-color: yellow;*/
+	font-family: "UniSansDemoHeavyCAPS";
+	font-size: 32px;
+}
+
+#containermid {
+/*	background-color: blue;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#containermidr {
+/*	background-color: blue;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 1100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#containermidm {
+/*	background-color: blue;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#clogin {
+/*	background-color: purple;*/
+	height: 70px;
+	width: 310px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#cmdp {
+/*	background-color: pink;*/
+	height: 70px;
+	width: 310px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#ccmdp {
+	height: 70px;
+	width: 310px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#cbirth {
+/*	background-color: pink;*/
+	height: 70px;
+	width: 310px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#cnom {
+/*	background-color: purple;*/
+	height: 70px;
+	width: 310px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#cprenom {
+/*	background-color: purple;*/
+	height: 70px;
+	width: 310px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#cmail {
+/*	background-color: purple;*/
+	height: 70px;
+	width: 310px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#cpres {
+/*	background-color: purple;*/
+	height: 150px;
+	width: 360px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#csexe {
+/*	background-color: purple;*/
+	height: 70px;
+	width: 310px;
+	font-size: 18px;
+	color: grey;
+}
+
+#chobbies {
+/*	background-color: purple;*/
+	height: 70px;
+	width: 310px;
+	font-size: 18px;
+	color: grey;
+}
+
+#sexe {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+#hobbies {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+#listehobbies {
+	display: flex;
+	flex-direction: row;
+	width: 280px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#homme {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#femme {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#mas {
+	color: lightblue;
+}
+
+#fem {
+	color: lightpink;
+}
+
+#etudes {
+	height: 30px;
+	font-size: 18px;
+	color: grey;
+}
+
+#nivetude {
+	font-size: 18px
+	margin-bottom: 10px;
+	color: grey;
+}
+
+#ctel {
+/*	background-color: purple;*/
+	height: 70px;
+	width: 310px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#containervalid {
+/*	background-color: lightgrey;*/
+	display: flex;
+	justify-content: center;
+	height: 60px;
+}
+
+#cvalid {
+/*	background-color: green;*/
+	height: 55px;
+	width: 280px;
+	border-radius: 20px;
+	border: 2px solid #12053a;
+	color: #0ae1fe;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+	background-color: white;
+}
+
+#cvalid:hover {
+	border: none;
+	color: white;
+	background-image: linear-gradient(to right, #12053A, #0BE2FF);
+	transform: scale(1.1);
+	transition: 0.25s ease-in-out;
+}
+
+#containerbas {
+/*	background-color: orange;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#inscrire {
+/*	background-color: lightpink;*/
+	color: grey;
+}
+
+#oubli {
+/*	background-color: lightblue;*/
+	color: grey;
+}
+
+#id {
+	height: 55px;
+	width: 280px;
+	font-size: 18px;
+	border: 2px solid grey;
+	border-radius: 6px;
+	padding-left: 40px;
+	color: grey;
+	background-image: url(photos/id.png);
+}
+
+#id:focus {
+	border: 2px solid #0ae1fe;
+}
+
+#id::placeholder {
+	color: grey;
+}
+
+#mdp {
+	height: 55px;
+	width: 280px;
+	font-size: 18px;
+	border: 2px solid grey;
+	border-radius: 6px;
+	padding-left: 40px;
+	color: grey;
+	background-image: url(photos/mdp.png);
+}
+
+#mdp:focus {
+	border: 2px solid #0ae1fe;
+}
+
+#mdpc {
+	height: 55px;
+	width: 280px;
+	font-size: 18px;
+	border: 2px solid grey;
+	border-radius: 6px;
+	padding-left: 40px;
+	color: grey;
+	background-image: url(photos/mdpc.png);
+}
+
+#mdpc:focus {
+	border: 2px solid #0ae1fe;
+}
+
+#mdp::placeholder {
+	color: grey;
+}
+
+#birth {
+	height: 55px;
+	width: 280px;
+	font-size: 18px;
+	border: 2px solid grey;
+	border-radius: 6px;
+	padding-left: 40px;
+	color: grey;
+	background-image: url(photos/calendar.png);
+}
+
+#birth:focus {
+	border: 2px solid #0ae1fe;
+}
+
+#birth::placeholder {
+	color: grey;
+}
+
+#nom {
+	height: 55px;
+	width: 280px;
+	font-size: 18px;
+	border: 2px solid grey;
+	border-radius: 6px;
+	padding-left: 40px;
+	color: grey;
+	background-image: url(photos/nom.png);
+}
+
+#nom:focus {
+	border: 2px solid #0ae1fe;
+}
+
+#nom::placeholder {
+	color: grey;
+}
+
+#prenom {
+	height: 55px;
+	width: 280px;
+	font-size: 18px;
+	border: 2px solid grey;
+	border-radius: 6px;
+	padding-left: 40px;
+	color: grey;
+	background-image: url(photos/prénom.png);
+}
+
+#prenom:focus {
+	border: 2px solid #0ae1fe;
+}
+
+#prenom::placeholder {
+	color: grey;
+}
+
+#mail {
+	height: 55px;
+	width: 280px;
+	font-size: 18px;
+	border: 2px solid grey;
+	border-radius: 6px;
+	padding-left: 40px;
+	color: grey;
+	background-image: url(photos/mail.png);
+}
+
+#mail:focus {
+	border: 2px solid #0ae1fe;
+}
+
+#mail::placeholder {
+	color: grey;
+}
+
+#tel {
+	height: 55px;
+	width: 280px;
+	font-size: 18px;
+	border: 2px solid grey;
+	border-radius: 6px;
+	padding-left: 40px;
+	color: grey;
+	background-image: url(photos/phone.png);
+}
+
+#tel:focus {
+	border: 2px solid #0ae1fe;
+}
+
+#pres {
+	height: 150px;
+	width: 360px;
+	font-size: 18px;
+	border: 2px solid grey;
+	border-radius: 6px;
+	padding-left: 10px;
+	color: grey;
+	background-color: lightgrey;
+	background-repeat: no-repeat;
+	resize: none;
+}
+
+#pres:focus {
+	border: 2px solid #0ae1fe;
+}
+
+#remember {
+/*	background-color: red;*/
+}
+
+.lien {
+	color: inherit;
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea:focus {
+	outline: none;
+}
