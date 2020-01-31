@@ -465,3 +465,11 @@ input:focus {
 textarea:focus {
 	outline: none;
 }
+
+.titre {
+	font-size: 44px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: "Bebas Neue";
+}
